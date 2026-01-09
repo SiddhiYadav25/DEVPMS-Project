@@ -1,4 +1,4 @@
-# Sankey Fleet Management System
+# Fleet Management System
 
 A full-stack web application for managing fleet operations including vehicles, trips, and user management with data visualization capabilities.
 
@@ -35,7 +35,7 @@ A full-stack web application for managing fleet operations including vehicles, t
 ## 📁 Project Structure
 
 ```
-sankey/
+fleet-management/
 ├── backend/
 │   ├── controllers/     # Route handlers
 │   ├── middleware/      # Authentication middleware
@@ -64,7 +64,7 @@ sankey/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd sankey
+   cd fleet-management
    ```
 
 2. **Install root dependencies**
@@ -89,7 +89,7 @@ sankey/
 Create a `.env` file in the `backend` directory:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/sankey-fleet
+MONGO_URI=mongodb://localhost:27017/fleet-management
 JWT_SECRET=your-jwt-secret-key
 PORT=5000
 ```
