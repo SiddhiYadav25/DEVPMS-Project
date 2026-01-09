@@ -1,5 +1,8 @@
 # Fleet Management System
 
+**Developer:** Siddhi Sanjay Yadav  
+**Email:** siddhiyadav2504@gmail.com
+
 A full-stack web application for managing fleet operations including vehicles, trips, and user management with data visualization capabilities.
 
 ## 🚀 Features
