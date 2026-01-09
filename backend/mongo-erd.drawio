@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="MongoDB ER Diagram">
+    <mxGraphModel dx="1050" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- User -->
+        <mxCell id="user" value="User&#10;------------------&#10;_id (PK)&#10;name&#10;email (unique)&#10;password&#10;role&#10;createdAt&#10;updatedAt"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="220" as="geometry"/>
+        </mxCell>
+
+        <!-- Vehicle -->
+        <mxCell id="vehicle" value="Vehicle&#10;------------------&#10;_id (PK)&#10;vehicle_number (unique)&#10;model&#10;fuel_type&#10;last_service_date&#10;createdAt&#10;updatedAt"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+          vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="260" height="220" as="geometry"/>
+        </mxCell>
+
+        <!-- Trip -->
+        <mxCell id="trip" value="Trip&#10;------------------&#10;_id (PK)&#10;driver_id (FK)&#10;vehicle_id (FK)&#10;start_location&#10;end_location&#10;distance_km&#10;fuel_used_ltr&#10;time_taken_hr&#10;efficiency (derived)&#10;avg_speed (derived)&#10;createdAt&#10;updatedAt"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+          vertex="1" parent="1">
+          <mxGeometry x="230" y="330" width="300" height="320" as="geometry"/>
+        </mxCell>
+
+        <!-- Relationships -->
+        <mxCell id="user-trip" value="1 : N"
+          style="endArrow=block;html=1;strokeWidth=2;"
+          edge="1" parent="1" source="user" target="trip">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="vehicle-trip" value="1 : N"
+          style="endArrow=block;html=1;strokeWidth=2;"
+          edge="1" parent="1" source="vehicle" target="trip">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
