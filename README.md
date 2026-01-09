@@ -5,7 +5,7 @@
 
 A full-stack web application for managing fleet operations including vehicles, trips, and user management with data visualization capabilities.
 
-## 🚀 Features
+## Features
 
 - **User Authentication** - Secure login/register with JWT tokens
 - **Vehicle Management** - Add, view, and manage fleet vehicles
@@ -14,7 +14,7 @@ A full-stack web application for managing fleet operations including vehicles, t
 - **User Management** - Admin controls for user operations
 - **Responsive Design** - Mobile-friendly interface with Tailwind CSS
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19** - Modern UI library
@@ -35,7 +35,7 @@ A full-stack web application for managing fleet operations including vehicles, t
 - **bcryptjs** - Password hashing
 - **CORS** - Cross-origin resource sharing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fleet-management/
@@ -55,7 +55,7 @@ fleet-management/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -117,7 +117,7 @@ PORT=5000
    - Frontend: http://localhost:5173
    - Backend API: http://localhost:5000
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -142,7 +142,7 @@ PORT=5000
 ### Analytics
 - `GET /api/graphs` - Get dashboard analytics data
 
-## 🎨 Frontend Features
+## Frontend Features
 
 - **Dashboard** - Overview with charts and statistics
 - **Trip Management** - Create and view trips
@@ -151,7 +151,7 @@ PORT=5000
 - **Authentication** - Secure login system
 - **Responsive Design** - Works on all devices
 
-## 🔧 Development
+## Development
 
 ### Frontend Scripts
 ```bash
@@ -167,7 +167,7 @@ npm start        # Start server
 npm run dev      # Start with nodemon (if configured)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -175,14 +175,14 @@ npm run dev      # Start with nodemon (if configured)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the ISC License.
 
-## 🐛 Issues
+## Issues
 
 If you encounter any issues, please create an issue on the repository with detailed information about the problem.
 
-## 📞 Support
+## Support
 
 For support and questions, please contact the development team.
